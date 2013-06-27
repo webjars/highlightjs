@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>7.4-SNAPSHOT</version>
+    <version>7.3-1-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -43,7 +43,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>7.3</upstream.version>
         <upstream.url.min>http://yandex.st/highlightjs/${upstream.version}</upstream.url.min>
-        <upstream.url.dev>https://raw.github.com/isagalaev/highlight.js/${upstream.version}/src</upstream.url.dev>
         <base.dir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</base.dir>
     </properties>
     
@@ -54,30 +53,6 @@
                 <artifactId>wagon-maven-plugin</artifactId>
                 <version>1.0-beta-4</version>
                 <executions>
-                    <execution>
-                        <id>download-full-js</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>download-single</goal>
-                        </goals>
-                        <configuration>
-                            <url>${upstream.url.dev}</url>
-                            <fromFile>highlight.js</fromFile>
-                            <toDir>${base.dir}</toDir>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>download-full-styles-default-css</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>download-single</goal>
-                        </goals>
-                        <configuration>
-                            <url>${upstream.url.dev}/styles</url>
-                            <fromFile>default.css</fromFile>
-                            <toDir>${base.dir}/styles</toDir>
-                        </configuration>
-                    </execution>
                     <execution>
                         <id>download-min-js</id>
                         <phase>process-resources</phase>
