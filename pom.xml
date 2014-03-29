@@ -659,6 +659,12 @@
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <targetPath>${base.dir}</targetPath>
+            </resource>
+        </resources>
     </build>
 
 </project>
