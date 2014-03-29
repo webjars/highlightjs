@@ -18,7 +18,7 @@
 
     <licenses>
         <license>
-            <name>Copyright (c) 2006, Ivan Sagalaev</name>
+            <name>BSD</name>
             <url>https://raw.github.com/isagalaev/highlight.js/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
@@ -637,14 +637,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.4.2</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.apache.maven.scm</groupId>
-                        <artifactId>maven-scm-provider-gitexe</artifactId>
-                        <version>1.9</version>
-                    </dependency>
-                </dependencies>
+                <version>2.5</version>
             </plugin>
 
             <plugin>
