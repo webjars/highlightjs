@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
+
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -38,15 +38,15 @@
             <email>james@jamesward.org</email>
         </developer>
     </developers>
-    
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>8.0</upstream.version>
+        <upstream.version>8.2</upstream.version>
         <upstream.url.min>http://yandex.st/highlightjs/${upstream.version}</upstream.url.min>
         <upstream.url.res>http://raw2.github.com/isagalaev/highlight.js/${upstream.version}/src</upstream.url.res>
         <base.dir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</base.dir>
     </properties>
-    
+
     <build>
         <plugins>
             <plugin>
