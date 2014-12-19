@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>8.2-2-SNAPSHOT</version>
+    <version>8.4-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -41,8 +41,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>8.2</upstream.version>
-        <upstream.url.min>http://yandex.st/highlightjs/${upstream.version}</upstream.url.min>
+        <upstream.version>8.4</upstream.version>
+        <upstream.url.min>https://cdnjs.cloudflare.com/ajax/libs/highlight.js/${upstream.version}</upstream.url.min>
         <upstream.url.zip>https://github.com/isagalaev/highlight.js/archive/${upstream.version}.zip</upstream.url.zip>
         <base.dir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</base.dir>
     </properties>
