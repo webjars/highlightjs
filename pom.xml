@@ -48,8 +48,8 @@
         <requirejs>
             {
                 "paths": {
-                    "highlightjs": "highlightjs",
-                    "highlightjs-min": "highlightjs.min",
+                    "highlightjs": "highlight",
+                    "highlightjs-min": "highlight.min",
                     "highlightjs-lang-1c": "languages/1c",
                     "highlightjs-lang-1c-min": "languages/1c.min",
                     "highlightjs-lang-actionscript": "languages/actionscript",
