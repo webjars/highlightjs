@@ -621,181 +621,181 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="download archive" />
-                                <get src="${upstream.url.zip}" dest="${project.build.directory}/${project.artifactId}.zip" />
-                                <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
-                                <echo message="moving resources" />
+                                <echo message="download archive"/>
+                                <get src="${upstream.url.zip}" dest="${project.build.directory}/${project.artifactId}.zip"/>
+                                <echo message="unzip archive"/>
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
+                                <echo message="moving resources"/>
                                 <move todir="${base.dir}">
-                                    <fileset dir="${project.build.directory}/highlight.js-${upstream.version}/src" />
+                                    <fileset dir="${project.build.directory}/highlight.js-${upstream.version}/src"/>
                                 </move>
 
-                                <get src="${upstream.url.min}/highlight.min.js" dest="${base.dir}" />
+                                <get src="${upstream.url.min}/highlight.min.js" dest="${base.dir}"/>
 
                                 <!-- styles -->
-                                <get src="${upstream.url.min}/styles/arta.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/ascetic.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-dune.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-dune.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-forest.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-forest.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-heath.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-heath.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-lakeside.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-lakeside.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-seaside.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-seaside.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/brown_paper.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/codepen-embed.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/color-brewer.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/default.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/docco.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/far.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/foundation.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/github.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/googlecode.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/hybrid.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/idea.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/ir_black.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/kimbie.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/kimbie.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/magula.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/mono-blue.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/monokai.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/monokai_sublime.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/obsidian.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/paraiso.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/paraiso.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/pojoaque.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/railscasts.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/rainbow.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/school_book.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/solarized_dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/solarized_light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/sunburst.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-blue.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-bright.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-eighties.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/vs.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/xcode.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/zenburn.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/arta.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/ascetic.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-dune.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-dune.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-forest.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-forest.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-heath.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-heath.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-lakeside.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-lakeside.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-seaside.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/atelier-seaside.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/brown_paper.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/codepen-embed.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/color-brewer.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/default.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/docco.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/far.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/foundation.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/github.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/googlecode.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/hybrid.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/idea.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/ir_black.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/kimbie.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/kimbie.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/magula.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/mono-blue.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/monokai.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/monokai_sublime.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/obsidian.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/paraiso.dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/paraiso.light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/pojoaque.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/railscasts.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/rainbow.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/school_book.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/solarized_dark.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/solarized_light.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/sunburst.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/tomorrow-night-blue.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/tomorrow-night-bright.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/tomorrow-night-eighties.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/tomorrow-night.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/tomorrow.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/vs.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/xcode.min.css" dest="${base.dir}/styles"/>
+                                <get src="${upstream.url.min}/styles/zenburn.min.css" dest="${base.dir}/styles"/>
 
                                 <!-- languages -->
-                                <get src="${upstream.url.min}/languages/1c.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/actionscript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/apache.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/applescript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/asciidoc.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/aspectj.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/autohotkey.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/avrasm.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/axapta.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/bash.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/brainfuck.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/capnproto.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/clojure-repl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/clojure.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/cmake.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/coffeescript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/cpp.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/cs.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/css.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/d.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/dart.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/delphi.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/diff.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/django.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/dos.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/dust.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/elixir.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/erb.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/erlang-repl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/erlang.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/fix.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/fsharp.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/gcode.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/gherkin.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/glsl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/go.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/gradle.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/groovy.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/haml.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/handlebars.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/haskell.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/haxe.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/http.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/ini.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/java.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/javascript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/json.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/lasso.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/less.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/lisp.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/livecodeserver.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/livescript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/lua.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/makefile.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/markdown.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/mathematica.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/matlab.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/mel.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/mercury.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/mizar.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/monkey.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/nginx.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/nimrod.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/nix.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/nsis.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/objectivec.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/ocaml.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/oxygene.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/parser3.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/perl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/php.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/powershell.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/processing.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/profile.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/protobuf.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/puppet.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/python.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/q.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/r.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/rib.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/roboconf.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/rsl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/ruby.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/ruleslanguage.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/rust.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/scala.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/scheme.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/scilab.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/scss.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/smali.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/smalltalk.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/sml.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/sql.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/stata.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/step21.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/stylus.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/swift.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/tcl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/tex.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/thrift.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/twig.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/typescript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vala.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vbnet.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vbscript-html.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vbscript.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/verilog.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vhdl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/vim.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/x86asm.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/xl.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url.min}/languages/xml.min.js" dest="${base.dir}/languages" />
+                                <get src="${upstream.url.min}/languages/1c.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/actionscript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/apache.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/applescript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/asciidoc.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/aspectj.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/autohotkey.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/avrasm.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/axapta.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/bash.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/brainfuck.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/capnproto.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/clojure-repl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/clojure.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/cmake.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/coffeescript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/cpp.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/cs.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/css.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/d.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/dart.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/delphi.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/diff.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/django.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/dos.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/dust.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/elixir.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/erb.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/erlang-repl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/erlang.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/fix.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/fsharp.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/gcode.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/gherkin.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/glsl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/go.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/gradle.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/groovy.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/haml.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/handlebars.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/haskell.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/haxe.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/http.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/ini.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/java.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/javascript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/json.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/lasso.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/less.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/lisp.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/livecodeserver.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/livescript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/lua.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/makefile.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/markdown.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/mathematica.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/matlab.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/mel.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/mercury.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/mizar.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/monkey.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/nginx.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/nimrod.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/nix.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/nsis.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/objectivec.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/ocaml.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/oxygene.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/parser3.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/perl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/php.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/powershell.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/processing.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/profile.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/protobuf.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/puppet.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/python.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/q.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/r.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/rib.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/roboconf.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/rsl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/ruby.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/ruleslanguage.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/rust.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/scala.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/scheme.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/scilab.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/scss.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/smali.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/smalltalk.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/sml.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/sql.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/stata.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/step21.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/stylus.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/swift.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/tcl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/tex.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/thrift.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/twig.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/typescript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vala.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vbnet.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vbscript-html.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vbscript.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/verilog.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vhdl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/vim.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/x86asm.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/xl.min.js" dest="${base.dir}/languages"/>
+                                <get src="${upstream.url.min}/languages/xml.min.js" dest="${base.dir}/languages"/>
 
                             </target>
                         </configuration>
@@ -806,13 +806,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5</version>
+                <version>2.5.1</version>
             </plugin>
 
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.5.1</version>
+                <version>1.6.5</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>sonatype-nexus-staging</serverId>
