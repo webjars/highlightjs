@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>9.2.1-SNAPSHOT</version>
+    <version>9.6.0-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -41,9 +41,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>9.2.0</upstream.version>
-        <upstream.url.min>https://cdnjs.cloudflare.com/ajax/libs/highlight.js/${upstream.version}</upstream.url.min>
-        <upstream.url.zip>https://github.com/isagalaev/highlight.js/archive/${upstream.version}.zip</upstream.url.zip>
+        <upstream.url.min>https://cdnjs.cloudflare.com/ajax/libs/highlight.js/${version.unsnapshot}</upstream.url.min>
+        <upstream.url.zip>https://github.com/isagalaev/highlight.js/archive/${version.unsnapshot}.zip</upstream.url.zip>
         <base.dir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</base.dir>
         <requirejs>
             {
@@ -612,6 +611,20 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.jamesward</groupId>
+                <artifactId>unsnapshot-maven-plugin</artifactId>
+                <version>0.2</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>unsnapshot</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.7</version>
@@ -627,7 +640,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${base.dir}">
-                                    <fileset dir="${project.build.directory}/highlight.js-${upstream.version}/src" />
+                                    <fileset dir="${project.build.directory}/highlight.js-${version.unsnapshot}/src" />
                                 </move>
 
                                 <get src="${upstream.url.min}/highlight.min.js" dest="${base.dir}" />
