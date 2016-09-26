@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>9.6.1-SNAPSHOT</version>
+    <version>9.7.0-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -277,28 +277,28 @@
                     "highlightjs-style-arta-min": "styles/arta.min",
                     "highlightjs-style-ascetic": "styles/ascetic",
                     "highlightjs-style-ascetic-min": "styles/ascetic.min",
-                    "highlightjs-style-atelier-dune-dark": "styles/atelier-dune.dark",
-                    "highlightjs-style-atelier-dune-dark-min": "styles/atelier-dune.dark.min",
-                    "highlightjs-style-atelier-dune-light": "styles/atelier-dune.light",
-                    "highlightjs-style-atelier-dune-light-min": "styles/atelier-dune.light.min",
-                    "highlightjs-style-atelier-forest-dark": "styles/atelier-forest.dark",
-                    "highlightjs-style-atelier-forest-dark-min": "styles/atelier-forest.dark.min",
-                    "highlightjs-style-atelier-forest-light": "styles/atelier-forest.light",
-                    "highlightjs-style-atelier-forest-light-min": "styles/atelier-forest.light.min",
-                    "highlightjs-style-atelier-heath-dark": "styles/atelier-heath.dark",
-                    "highlightjs-style-atelier-heath-dark-min": "styles/atelier-heath.dark.min",
-                    "highlightjs-style-atelier-heath-light": "styles/atelier-heath.light",
-                    "highlightjs-style-atelier-heath-light-min": "styles/atelier-heath.light.min",
-                    "highlightjs-style-atelier-lakeside-dark": "styles/atelier-lakeside.dark",
-                    "highlightjs-style-atelier-lakeside-dark-min": "styles/atelier-lakeside.dark.min",
-                    "highlightjs-style-atelier-lakeside-light": "styles/atelier-lakeside.light",
-                    "highlightjs-style-atelier-lakeside-light-min": "styles/atelier-lakeside.light.min",
-                    "highlightjs-style-atelier-seaside-dark": "styles/atelier-seaside.dark",
-                    "highlightjs-style-atelier-seaside-dark-min": "styles/atelier-seaside.dark.min",
-                    "highlightjs-style-atelier-seaside-light": "styles/atelier-seaside.light",
-                    "highlightjs-style-atelier-seaside-light-min": "styles/atelier-seaside.light.min",
-                    "highlightjs-style-brown_paper": "styles/brown_paper",
-                    "highlightjs-style-brown_paper-min": "styles/brown_paper.min",
+                    "highlightjs-style-atelier-dune-dark": "styles/atelier-dune-dark",
+                    "highlightjs-style-atelier-dune-dark-min": "styles/atelier-dune-dark.min",
+                    "highlightjs-style-atelier-dune-light": "styles/atelier-dune-light",
+                    "highlightjs-style-atelier-dune-light-min": "styles/atelier-dune-light.min",
+                    "highlightjs-style-atelier-forest-dark": "styles/atelier-forest-dark",
+                    "highlightjs-style-atelier-forest-dark-min": "styles/atelier-forest-dark.min",
+                    "highlightjs-style-atelier-forest-light": "styles/atelier-forest-light",
+                    "highlightjs-style-atelier-forest-light-min": "styles/atelier-forest-light.min",
+                    "highlightjs-style-atelier-heath-dark": "styles/atelier-heath-dark",
+                    "highlightjs-style-atelier-heath-dark-min": "styles/atelier-heath-dark.min",
+                    "highlightjs-style-atelier-heath-light": "styles/atelier-heath-light",
+                    "highlightjs-style-atelier-heath-light-min": "styles/atelier-heath-light.min",
+                    "highlightjs-style-atelier-lakeside-dark": "styles/atelier-lakeside-dark",
+                    "highlightjs-style-atelier-lakeside-dark-min": "styles/atelier-lakeside-dark.min",
+                    "highlightjs-style-atelier-lakeside-light": "styles/atelier-lakeside-light",
+                    "highlightjs-style-atelier-lakeside-light-min": "styles/atelier-lakeside-light.min",
+                    "highlightjs-style-atelier-seaside-dark": "styles/atelier-seaside-dark",
+                    "highlightjs-style-atelier-seaside-dark-min": "styles/atelier-seaside-dark.min",
+                    "highlightjs-style-atelier-seaside-light": "styles/atelier-seaside-light",
+                    "highlightjs-style-atelier-seaside-light-min": "styles/atelier-seaside-light.min",
+                    "highlightjs-style-brown-paper": "styles/brown-paper",
+                    "highlightjs-style-brown-paper-min": "styles/brown-paper.min",
                     "highlightjs-style-codepen-embed": "styles/codepen-embed",
                     "highlightjs-style-codepen-embed-min": "styles/codepen-embed.min",
                     "highlightjs-style-color-brewer": "styles/color-brewer",
@@ -321,38 +321,38 @@
                     "highlightjs-style-hybrid-min": "styles/hybrid.min",
                     "highlightjs-style-idea": "styles/idea",
                     "highlightjs-style-idea-min": "styles/idea.min",
-                    "highlightjs-style-ir_black": "styles/ir_black",
-                    "highlightjs-style-ir_black-min": "styles/ir_black.min",
-                    "highlightjs-style-kimbie-dark": "styles/kimbie.dark",
-                    "highlightjs-style-kimbie-dark-min": "styles/kimbie.dark.min",
-                    "highlightjs-style-kimbie-light": "styles/kimbie.light",
-                    "highlightjs-style-kimbie-light-min": "styles/kimbie.light.min",
+                    "highlightjs-style-ir-black": "styles/ir-black",
+                    "highlightjs-style-ir-black-min": "styles/ir-black.min",
+                    "highlightjs-style-kimbie-dark": "styles/kimbie-dark",
+                    "highlightjs-style-kimbie-dark-min": "styles/kimbie-dark.min",
+                    "highlightjs-style-kimbie-light": "styles/kimbie-light",
+                    "highlightjs-style-kimbie-light-min": "styles/kimbie-light.min",
                     "highlightjs-style-magula": "styles/magula",
                     "highlightjs-style-magula-min": "styles/magula.min",
                     "highlightjs-style-mono-blue": "styles/mono-blue",
                     "highlightjs-style-mono-blue-min": "styles/mono-blue.min",
                     "highlightjs-style-monokai": "styles/monokai",
                     "highlightjs-style-monokai-min": "styles/monokai.min",
-                    "highlightjs-style-monokai_sublime": "styles/monokai_sublime",
-                    "highlightjs-style-monokai_sublime-min": "styles/monokai_sublime.min",
+                    "highlightjs-style-monokai-sublime": "styles/monokai-sublime",
+                    "highlightjs-style-monokai-sublime-min": "styles/monokai-sublime.min",
                     "highlightjs-style-obsidian": "styles/obsidian",
                     "highlightjs-style-obsidian-min": "styles/obsidian.min",
-                    "highlightjs-style-paraiso-dark": "styles/paraiso.dark",
-                    "highlightjs-style-paraiso-dark-min": "styles/paraiso.dark.min",
-                    "highlightjs-style-paraiso-light": "styles/paraiso.light",
-                    "highlightjs-style-paraiso-light-min": "styles/paraiso.light.min",
+                    "highlightjs-style-paraiso-dark": "styles/paraiso-dark",
+                    "highlightjs-style-paraiso-dark-min": "styles/paraiso-dark.min",
+                    "highlightjs-style-paraiso-light": "styles/paraiso-light",
+                    "highlightjs-style-paraiso-light-min": "styles/paraiso-light.min",
                     "highlightjs-style-pojoaque": "styles/pojoaque",
                     "highlightjs-style-pojoaque-min": "styles/pojoaque.min",
                     "highlightjs-style-railscasts": "styles/railscasts",
                     "highlightjs-style-railscasts-min": "styles/railscasts.min",
                     "highlightjs-style-rainbox": "styles/rainbox",
                     "highlightjs-style-rainbox-min": "styles/rainbox.min",
-                    "highlightjs-style-school_book": "styles/school_book",
-                    "highlightjs-style-school_book-min": "styles/school_book.min",
-                    "highlightjs-style-solarized_dark": "styles/solarized_dark",
-                    "highlightjs-style-solarized_dark-min": "styles/solarized_dark.min",
-                    "highlightjs-style-solarized_light": "styles/solarized_light",
-                    "highlightjs-style-solarized_light-min": "styles/solarized_light.min",
+                    "highlightjs-style-school-book": "styles/school-book",
+                    "highlightjs-style-school-book-min": "styles/school-book.min",
+                    "highlightjs-style-solarized-dark": "styles/solarized-dark",
+                    "highlightjs-style-solarized-dark-min": "styles/solarized-dark.min",
+                    "highlightjs-style-solarized-light": "styles/solarized-light",
+                    "highlightjs-style-solarized-light-min": "styles/solarized-light.min",
                     "highlightjs-style-sunburst": "styles/sunburst",
                     "highlightjs-style-sunburst-min": "styles/sunburst.min",
                     "highlightjs-style-tomorrow-night-blue": "styles/tomorrow-night-blue",
@@ -648,17 +648,17 @@
                                 <!-- styles -->
                                 <get src="${upstream.url.min}/styles/arta.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/ascetic.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-dune.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-dune.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-forest.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-forest.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-heath.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-heath.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-lakeside.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-lakeside.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-seaside.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/atelier-seaside.light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/brown_paper.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-dune-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-dune-light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-forest-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-forest-light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-heath-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-heath-light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-lakeside-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-lakeside-light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-seaside-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/atelier-seaside-light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/brown-paper.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/codepen-embed.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/color-brewer.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/dark.min.css" dest="${base.dir}/styles" />
@@ -670,22 +670,22 @@
                                 <get src="${upstream.url.min}/styles/googlecode.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/hybrid.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/idea.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/ir_black.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/ir-black.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/kimbie.dark.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/kimbie.light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/magula.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/mono-blue.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/monokai.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/monokai_sublime.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/monokai-sublime.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/obsidian.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/paraiso.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/paraiso.light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/paraiso-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/paraiso-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/pojoaque.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/railscasts.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/rainbow.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/school_book.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/solarized_dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/solarized_light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/school-book.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/solarized-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url.min}/styles/solarized-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/sunburst.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/tomorrow-night-blue.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/tomorrow-night-bright.min.css" dest="${base.dir}/styles" />
