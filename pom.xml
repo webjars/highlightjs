@@ -350,27 +350,7 @@
                     "highlightjs-style-school-book": "styles/school-book",
                     "highlightjs-style-school-book-min": "styles/school-book.min",
                     "highlightjs-style-solarized-dark": "styles/solarized-dark",
-                    "highlightjs-style-solarized-dark-min": "styles/solarized-dark.min",
-                    "highlightjs-style-solarized-light": "styles/solarized-light",
-                    "highlightjs-style-solarized-light-min": "styles/solarized-light.min",
-                    "highlightjs-style-sunburst": "styles/sunburst",
-                    "highlightjs-style-sunburst-min": "styles/sunburst.min",
-                    "highlightjs-style-tomorrow-night-blue": "styles/tomorrow-night-blue",
-                    "highlightjs-style-tomorrow-night-blue-min": "styles/tomorrow-night-blue.min",
-                    "highlightjs-style-tomorrow-night-bright": "styles/tomorrow-night-bright",
-                    "highlightjs-style-tomorrow-night-bright-min": "styles/tomorrow-night-bright.min",
-                    "highlightjs-style-tomorrow-night-eighties": "styles/tomorrow-night-eighties",
-                    "highlightjs-style-tomorrow-night-eighties-min": "styles/tomorrow-night-eighties.min",
-                    "highlightjs-style-tomorrow-night": "styles/tomorrow-night",
-                    "highlightjs-style-tomorrow-night-min": "styles/tomorrow-night.min",
-                    "highlightjs-style-tomorrow": "styles/tomorrow",
-                    "highlightjs-style-tomorrow-min": "styles/tomorrow.min",
-                    "highlightjs-style-vs": "styles/vs",
-                    "highlightjs-style-vs-min": "styles/vs.min",
-                    "highlightjs-style-xcode": "styles/xcode",
-                    "highlightjs-style-xcode-min": "styles/xcode.min",
-                    "highlightjs-style-zenburn": "styles/zenburn",
-                    "highlightjs-style-zenburn-min": "styles/zenburn.min"
+                    "highlightjs-style-solarized-dark-min": "styles/solarized-dark.min"
                 },
                 "shim": {
                     "highlightjs": {
@@ -685,16 +665,6 @@
                                 <get src="${upstream.url.min}/styles/rainbow.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/school-book.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url.min}/styles/solarized-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/solarized-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/sunburst.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-blue.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-bright.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night-eighties.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow-night.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/tomorrow.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/vs.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/xcode.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url.min}/styles/zenburn.min.css" dest="${base.dir}/styles" />
 
                                 <!-- languages -->
                                 <get src="${upstream.url.min}/languages/1c.min.js" dest="${base.dir}/languages" />
