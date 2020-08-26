@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>10.1.2</version>
+    <version>10.1.3-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/webjars/highlightjs</url>
         <connection>scm:git:https://github.com/webjars/highlightjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/highlightjs.git</developerConnection>
-        <tag>highlightjs-10.1.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
