@@ -712,6 +712,7 @@
                         <configuration>
                             <target>
                                 <mkdir dir="${base.dir}/styles" />
+                                <mkdir dir="${base.dir}/styles/base16" />
                                 <mkdir dir="${base.dir}/languages" />
 
                                 <get src="${upstream.url}/highlight.js" dest="${base.dir}" />
