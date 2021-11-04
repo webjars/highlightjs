@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>highlightjs</artifactId>
-    <version>10.1.3-SNAPSHOT</version>
+    <version>11.3.1-SNAPSHOT</version>
     <name>Highlight.js</name>
     <description>WebJar for Highlight.js</description>
     <url>http://webjars.org</url>
@@ -56,26 +56,6 @@
                     "highlightjs-style-arduino-light": "styles/arduino-light.min",
                     "highlightjs-style-arta": "styles/arta.min",
                     "highlightjs-style-ascetic": "styles/ascetic.min",
-                    "highlightjs-style-atelier-cave-dark": "styles/atelier-cave-dark.min",
-                    "highlightjs-style-atelier-cave-light": "styles/atelier-cave-light.min",
-                    "highlightjs-style-atelier-dune-dark": "styles/atelier-dune-dark.min",
-                    "highlightjs-style-atelier-dune-light": "styles/atelier-dune-light.min",
-                    "highlightjs-style-atelier-estuary-dark": "styles/atelier-estuary-dark.min",
-                    "highlightjs-style-atelier-estuary-light": "styles/atelier-estuary-light.min",
-                    "highlightjs-style-atelier-forest-dark": "styles/atelier-forest-dark.min",
-                    "highlightjs-style-atelier-forest-light": "styles/atelier-forest-light.min",
-                    "highlightjs-style-atelier-heath-dark": "styles/atelier-heath-dark.min",
-                    "highlightjs-style-atelier-heath-light": "styles/atelier-heath-light.min",
-                    "highlightjs-style-atelier-lakeside-dark": "styles/atelier-lakeside-dark.min",
-                    "highlightjs-style-atelier-lakeside-light": "styles/atelier-lakeside-light.min",
-                    "highlightjs-style-atelier-plateau-dark": "styles/atelier-plateau-dark.min",
-                    "highlightjs-style-atelier-plateau-light": "styles/atelier-plateau-light.min",
-                    "highlightjs-style-atelier-savanna-dark": "styles/atelier-savanna-dark.min",
-                    "highlightjs-style-atelier-savanna-light": "styles/atelier-savanna-light.min",
-                    "highlightjs-style-atelier-seaside-dark": "styles/atelier-seaside-dark.min",
-                    "highlightjs-style-atelier-seaside-light": "styles/atelier-seaside-light.min",
-                    "highlightjs-style-atelier-sulphurpool-dark": "styles/atelier-sulphurpool-dark.min",
-                    "highlightjs-style-atelier-sulphurpool-light": "styles/atelier-sulphurpool-light.min",
                     "highlightjs-style-atom-one-dark": "styles/atom-one-dark.min",
                     "highlightjs-style-atom-one-dark-reasonable": "styles/atom-one-dark-reasonable.min",
                     "highlightjs-style-atom-one-light": "styles/atom-one-light.min",
@@ -83,29 +63,27 @@
                     "highlightjs-style-brown-papersq.pngbrown-papersq.png",
                     "highlightjs-style-codepen-embed": "styles/codepen-embed.min",
                     "highlightjs-style-color-brewer": "styles/color-brewer.min",
-                    "highlightjs-style-darcula": "styles/darcula.min",
                     "highlightjs-style-dark": "styles/dark.min",
                     "highlightjs-style-default": "styles/default.min",
+                    "highlightjs-style-devibeans": "styles/devibeans.min",
                     "highlightjs-style-docco": "styles/docco.min",
-                    "highlightjs-style-dracula": "styles/dracula.min",
                     "highlightjs-style-far": "styles/far.min",
                     "highlightjs-style-foundation": "styles/foundation.min",
                     "highlightjs-style-github": "styles/github.min",
-                    "highlightjs-style-github-gist": "styles/github-gist.min",
+                    "highlightjs-style-github-dark": "styles/github-dark.min",
+                    "highlightjs-style-github-dark-dimmed": "styles/github-dark-dimmed.min",
                     "highlightjs-style-gml": "styles/gml.min",
                     "highlightjs-style-googlecode": "styles/googlecode.min",
                     "highlightjs-style-gradient-dark": "styles/gradient-dark.min",
+                    "highlightjs-style-gradient-light": "styles/gradient-light.min",
                     "highlightjs-style-grayscale": "styles/grayscale.min",
-                    "highlightjs-style-gruvbox-dark": "styles/gruvbox-dark.min",
-                    "highlightjs-style-gruvbox-light": "styles/gruvbox-light.min",
-                    "highlightjs-style-hopscotch": "styles/hopscotch.min",
                     "highlightjs-style-hybrid": "styles/hybrid.min",
                     "highlightjs-style-idea": "styles/idea.min",
                     "highlightjs-style-ir-black": "styles/ir-black.min",
                     "highlightjs-style-isbl-editor-dark": "styles/isbl-editor-dark.min",
                     "highlightjs-style-isbl-editor-light": "styles/isbl-editor-light.min",
-                    "highlightjs-style-kimbie.dark": "styles/kimbie.dark.min",
-                    "highlightjs-style-kimbie.light": "styles/kimbie.light.min",
+                    "highlightjs-style-kimbie-dark": "styles/kimbie-dark.min",
+                    "highlightjs-style-kimbie-light": "styles/kimbie-light.min",
                     "highlightjs-style-lightfair": "styles/lightfair.min",
                     "highlightjs-style-lioshi": "styles/lioshi.min",
                     "highlightjs-style-magula": "styles/magula.min",
@@ -113,38 +91,207 @@
                     "highlightjs-style-monokai": "styles/monokai.min",
                     "highlightjs-style-monokai-sublime": "styles/monokai-sublime.min",
                     "highlightjs-style-night-owl": "styles/night-owl.min",
-                    "highlightjs-style-nnfx": "styles/nnfx.min",
                     "highlightjs-style-nnfx-dark": "styles/nnfx-dark.min",
+                    "highlightjs-style-nnfx-light": "styles/nnfx-light.min",
                     "highlightjs-style-nord": "styles/nord.min",
                     "highlightjs-style-obsidian": "styles/obsidian.min",
-                    "highlightjs-style-ocean": "styles/ocean.min",
                     "highlightjs-style-paraiso-dark": "styles/paraiso-dark.min",
                     "highlightjs-style-paraiso-light": "styles/paraiso-light.min",
                     "highlightjs-style-pojoaque.jpgpojoaque.jpg",
                     "highlightjs-style-pojoaque": "styles/pojoaque.min",
                     "highlightjs-style-purebasic": "styles/purebasic.min",
-                    "highlightjs-style-qtcreator_dark": "styles/qtcreator_dark.min",
-                    "highlightjs-style-qtcreator_light": "styles/qtcreator_light.min",
-                    "highlightjs-style-railscasts": "styles/railscasts.min",
+                    "highlightjs-style-qtcreator-dark": "styles/qtcreator-dark.min",
+                    "highlightjs-style-qtcreator-light": "styles/qtcreator-light.min",
                     "highlightjs-style-rainbow": "styles/rainbow.min",
                     "highlightjs-style-routeros": "styles/routeros.min",
                     "highlightjs-style-school-book": "styles/school-book.min",
-                    "highlightjs-style-school-book.pngschool-book.png",
                     "highlightjs-style-shades-of-purple": "styles/shades-of-purple.min",
-                    "highlightjs-style-solarized-dark": "styles/solarized-dark.min",
-                    "highlightjs-style-solarized-light": "styles/solarized-light.min",
                     "highlightjs-style-srcery": "styles/srcery.min",
+                    "highlightjs-style-stackoverflow-dark": "styles/stackoverflow-dark.min",
+                    "highlightjs-style-stackoverflow-light": "styles/stackoverflow-light.min",
                     "highlightjs-style-sunburst": "styles/sunburst.min",
-                    "highlightjs-style-tomorrow": "styles/tomorrow.min",
-                    "highlightjs-style-tomorrow-night": "styles/tomorrow-night.min",
                     "highlightjs-style-tomorrow-night-blue": "styles/tomorrow-night-blue.min",
                     "highlightjs-style-tomorrow-night-bright": "styles/tomorrow-night-bright.min",
-                    "highlightjs-style-tomorrow-night-eighties": "styles/tomorrow-night-eighties.min",
                     "highlightjs-style-vs": "styles/vs.min",
                     "highlightjs-style-vs2015": "styles/vs2015.min",
                     "highlightjs-style-xcode": "styles/xcode.min",
                     "highlightjs-style-xt256": "styles/xt256.min",
-                    "highlightjs-style-zenburn": "styles/zenburn.min",
+                    "highlightjs-style-base16-3024": "styles/base16/3024.min",
+                    "highlightjs-style-base16-apathy": "styles/base16/apathy.min",
+                    "highlightjs-style-base16-apprentice": "styles/base16/apprentice.min",
+                    "highlightjs-style-base16-ashes": "styles/base16/ashes.min",
+                    "highlightjs-style-base16-atelier-cave-light": "styles/base16/atelier-cave-light.min",
+                    "highlightjs-style-base16-atelier-cave": "styles/base16/atelier-cave.min",
+                    "highlightjs-style-base16-atelier-dune-light": "styles/base16/atelier-dune-light.min",
+                    "highlightjs-style-base16-atelier-dune": "styles/base16/atelier-dune.min",
+                    "highlightjs-style-base16-atelier-estuary-light": "styles/base16/atelier-estuary-light.min",
+                    "highlightjs-style-base16-atelier-estuary": "styles/base16/atelier-estuary.min",
+                    "highlightjs-style-base16-atelier-forest-light": "styles/base16/atelier-forest-light.min",
+                    "highlightjs-style-base16-atelier-forest": "styles/base16/atelier-forest.min",
+                    "highlightjs-style-base16-atelier-heath-light": "styles/base16/atelier-heath-light.min",
+                    "highlightjs-style-base16-atelier-heath": "styles/base16/atelier-heath.min",
+                    "highlightjs-style-base16-atelier-lakeside-light": "styles/base16/atelier-lakeside-light.min",
+                    "highlightjs-style-base16-atelier-lakeside": "styles/base16/atelier-lakeside.min",
+                    "highlightjs-style-base16-atelier-plateau-light": "styles/base16/atelier-plateau-light.min",
+                    "highlightjs-style-base16-atelier-plateau": "styles/base16/atelier-plateau.min",
+                    "highlightjs-style-base16-atelier-savanna-light": "styles/base16/atelier-savanna-light.min",
+                    "highlightjs-style-base16-atelier-savanna": "styles/base16/atelier-savanna.min",
+                    "highlightjs-style-base16-atelier-seaside-light": "styles/base16/atelier-seaside-light.min",
+                    "highlightjs-style-base16-atelier-seaside": "styles/base16/atelier-seaside.min",
+                    "highlightjs-style-base16-atelier-sulphurpool-light": "styles/base16/atelier-sulphurpool-light.min",
+                    "highlightjs-style-base16-atelier-sulphurpool": "styles/base16/atelier-sulphurpool.min",
+                    "highlightjs-style-base16-atlas": "styles/base16/atlas.min",
+                    "highlightjs-style-base16-bespin": "styles/base16/bespin.min",
+                    "highlightjs-style-base16-black-metal-bathory": "styles/base16/black-metal-bathory.min",
+                    "highlightjs-style-base16-black-metal-burzum": "styles/base16/black-metal-burzum.min",
+                    "highlightjs-style-base16-black-metal-dark-funeral": "styles/base16/black-metal-dark-funeral.min",
+                    "highlightjs-style-base16-black-metal-gorgoroth": "styles/base16/black-metal-gorgoroth.min",
+                    "highlightjs-style-base16-black-metal-immortal": "styles/base16/black-metal-immortal.min",
+                    "highlightjs-style-base16-black-metal-khold": "styles/base16/black-metal-khold.min",
+                    "highlightjs-style-base16-black-metal-marduk": "styles/base16/black-metal-marduk.min",
+                    "highlightjs-style-base16-black-metal-mayhem": "styles/base16/black-metal-mayhem.min",
+                    "highlightjs-style-base16-black-metal-nile": "styles/base16/black-metal-nile.min",
+                    "highlightjs-style-base16-black-metal-venom": "styles/base16/black-metal-venom.min",
+                    "highlightjs-style-base16-black-metal": "styles/base16/black-metal.min",
+                    "highlightjs-style-base16-brewer": "styles/base16/brewer.min",
+                    "highlightjs-style-base16-bright": "styles/base16/bright.min",
+                    "highlightjs-style-base16-brogrammer": "styles/base16/brogrammer.min",
+                    "highlightjs-style-base16-brush-trees-dark": "styles/base16/brush-trees-dark.min",
+                    "highlightjs-style-base16-brush-trees": "styles/base16/brush-trees.min",
+                    "highlightjs-style-base16-chalk": "styles/base16/chalk.min",
+                    "highlightjs-style-base16-circus": "styles/base16/circus.min",
+                    "highlightjs-style-base16-classic-dark": "styles/base16/classic-dark.min",
+                    "highlightjs-style-base16-classic-light": "styles/base16/classic-light.min",
+                    "highlightjs-style-base16-codeschool": "styles/base16/codeschool.min",
+                    "highlightjs-style-base16-colors": "styles/base16/colors.min",
+                    "highlightjs-style-base16-cupcake": "styles/base16/cupcake.min",
+                    "highlightjs-style-base16-cupertino": "styles/base16/cupertino.min",
+                    "highlightjs-style-base16-danqing": "styles/base16/danqing.min",
+                    "highlightjs-style-base16-darcula": "styles/base16/darcula.min",
+                    "highlightjs-style-base16-dark-violet": "styles/base16/dark-violet.min",
+                    "highlightjs-style-base16-darkmoss": "styles/base16/darkmoss.min",
+                    "highlightjs-style-base16-darktooth": "styles/base16/darktooth.min",
+                    "highlightjs-style-base16-decaf": "styles/base16/decaf.min",
+                    "highlightjs-style-base16-default-dark": "styles/base16/default-dark.min",
+                    "highlightjs-style-base16-default-light": "styles/base16/default-light.min",
+                    "highlightjs-style-base16-dirtysea": "styles/base16/dirtysea.min",
+                    "highlightjs-style-base16-dracula": "styles/base16/dracula.min",
+                    "highlightjs-style-base16-edge-dark": "styles/base16/edge-dark.min",
+                    "highlightjs-style-base16-edge-light": "styles/base16/edge-light.min",
+                    "highlightjs-style-base16-eighties": "styles/base16/eighties.min",
+                    "highlightjs-style-base16-embers": "styles/base16/embers.min",
+                    "highlightjs-style-base16-equilibrium-dark": "styles/base16/equilibrium-dark.min",
+                    "highlightjs-style-base16-equilibrium-gray-dark": "styles/base16/equilibrium-gray-dark.min",
+                    "highlightjs-style-base16-equilibrium-gray-light": "styles/base16/equilibrium-gray-light.min",
+                    "highlightjs-style-base16-equilibrium-light": "styles/base16/equilibrium-light.min",
+                    "highlightjs-style-base16-espresso": "styles/base16/espresso.min",
+                    "highlightjs-style-base16-eva-dim": "styles/base16/eva-dim.min",
+                    "highlightjs-style-base16-eva": "styles/base16/eva.min",
+                    "highlightjs-style-base16-flat": "styles/base16/flat.min",
+                    "highlightjs-style-base16-framer": "styles/base16/framer.min",
+                    "highlightjs-style-base16-fruit-soda": "styles/base16/fruit-soda.min",
+                    "highlightjs-style-base16-gigavolt": "styles/base16/gigavolt.min",
+                    "highlightjs-style-base16-github": "styles/base16/github.min",
+                    "highlightjs-style-base16-google-dark": "styles/base16/google-dark.min",
+                    "highlightjs-style-base16-google-light": "styles/base16/google-light.min",
+                    "highlightjs-style-base16-grayscale-dark": "styles/base16/grayscale-dark.min",
+                    "highlightjs-style-base16-grayscale-light": "styles/base16/grayscale-light.min",
+                    "highlightjs-style-base16-green-screen": "styles/base16/green-screen.min",
+                    "highlightjs-style-base16-gruvbox-dark-hard": "styles/base16/gruvbox-dark-hard.min",
+                    "highlightjs-style-base16-gruvbox-dark-medium": "styles/base16/gruvbox-dark-medium.min",
+                    "highlightjs-style-base16-gruvbox-dark-pale": "styles/base16/gruvbox-dark-pale.min",
+                    "highlightjs-style-base16-gruvbox-dark-soft": "styles/base16/gruvbox-dark-soft.min",
+                    "highlightjs-style-base16-gruvbox-light-hard": "styles/base16/gruvbox-light-hard.min",
+                    "highlightjs-style-base16-gruvbox-light-medium": "styles/base16/gruvbox-light-medium.min",
+                    "highlightjs-style-base16-gruvbox-light-soft": "styles/base16/gruvbox-light-soft.min",
+                    "highlightjs-style-base16-hardcore": "styles/base16/hardcore.min",
+                    "highlightjs-style-base16-harmonic16-dark": "styles/base16/harmonic16-dark.min",
+                    "highlightjs-style-base16-harmonic16-light": "styles/base16/harmonic16-light.min",
+                    "highlightjs-style-base16-heetch-dark": "styles/base16/heetch-dark.min",
+                    "highlightjs-style-base16-heetch-light": "styles/base16/heetch-light.min",
+                    "highlightjs-style-base16-helios": "styles/base16/helios.min",
+                    "highlightjs-style-base16-hopscotch": "styles/base16/hopscotch.min",
+                    "highlightjs-style-base16-horizon-dark": "styles/base16/horizon-dark.min",
+                    "highlightjs-style-base16-horizon-light": "styles/base16/horizon-light.min",
+                    "highlightjs-style-base16-humanoid-dark": "styles/base16/humanoid-dark.min",
+                    "highlightjs-style-base16-humanoid-light": "styles/base16/humanoid-light.min",
+                    "highlightjs-style-base16-ia-dark": "styles/base16/ia-dark.min",
+                    "highlightjs-style-base16-ia-light": "styles/base16/ia-light.min",
+                    "highlightjs-style-base16-icy-dark": "styles/base16/icy-dark.min",
+                    "highlightjs-style-base16-ir-black": "styles/base16/ir-black.min",
+                    "highlightjs-style-base16-isotope": "styles/base16/isotope.min",
+                    "highlightjs-style-base16-kimber": "styles/base16/kimber.min",
+                    "highlightjs-style-base16-london-tube": "styles/base16/london-tube.min",
+                    "highlightjs-style-base16-macintosh": "styles/base16/macintosh.min",
+                    "highlightjs-style-base16-marrakesh": "styles/base16/marrakesh.min",
+                    "highlightjs-style-base16-materia": "styles/base16/materia.min",
+                    "highlightjs-style-base16-material-darker": "styles/base16/material-darker.min",
+                    "highlightjs-style-base16-material-lighter": "styles/base16/material-lighter.min",
+                    "highlightjs-style-base16-material-palenight": "styles/base16/material-palenight.min",
+                    "highlightjs-style-base16-material-vivid": "styles/base16/material-vivid.min",
+                    "highlightjs-style-base16-material": "styles/base16/material.min",
+                    "highlightjs-style-base16-mellow-purple": "styles/base16/mellow-purple.min",
+                    "highlightjs-style-base16-mexico-light": "styles/base16/mexico-light.min",
+                    "highlightjs-style-base16-mocha": "styles/base16/mocha.min",
+                    "highlightjs-style-base16-monokai": "styles/base16/monokai.min",
+                    "highlightjs-style-base16-nebula": "styles/base16/nebula.min",
+                    "highlightjs-style-base16-nord": "styles/base16/nord.min",
+                    "highlightjs-style-base16-nova": "styles/base16/nova.min",
+                    "highlightjs-style-base16-ocean": "styles/base16/ocean.min",
+                    "highlightjs-style-base16-oceanicnext": "styles/base16/oceanicnext.min",
+                    "highlightjs-style-base16-one-light": "styles/base16/one-light.min",
+                    "highlightjs-style-base16-onedark": "styles/base16/onedark.min",
+                    "highlightjs-style-base16-outrun-dark": "styles/base16/outrun-dark.min",
+                    "highlightjs-style-base16-papercolor-dark": "styles/base16/papercolor-dark.min",
+                    "highlightjs-style-base16-papercolor-light": "styles/base16/papercolor-light.min",
+                    "highlightjs-style-base16-paraiso": "styles/base16/paraiso.min",
+                    "highlightjs-style-base16-pasque": "styles/base16/pasque.min",
+                    "highlightjs-style-base16-phd": "styles/base16/phd.min",
+                    "highlightjs-style-base16-pico": "styles/base16/pico.min",
+                    "highlightjs-style-base16-pop": "styles/base16/pop.min",
+                    "highlightjs-style-base16-porple": "styles/base16/porple.min",
+                    "highlightjs-style-base16-qualia": "styles/base16/qualia.min",
+                    "highlightjs-style-base16-railscasts": "styles/base16/railscasts.min",
+                    "highlightjs-style-base16-rebecca": "styles/base16/rebecca.min",
+                    "highlightjs-style-base16-ros-pine-dawn": "styles/base16/ros-pine-dawn.min",
+                    "highlightjs-style-base16-ros-pine-moon": "styles/base16/ros-pine-moon.min",
+                    "highlightjs-style-base16-ros-pine": "styles/base16/ros-pine.min",
+                    "highlightjs-style-base16-sagelight": "styles/base16/sagelight.min",
+                    "highlightjs-style-base16-sandcastle": "styles/base16/sandcastle.min",
+                    "highlightjs-style-base16-seti-ui": "styles/base16/seti-ui.min",
+                    "highlightjs-style-base16-shapeshifter": "styles/base16/shapeshifter.min",
+                    "highlightjs-style-base16-silk-dark": "styles/base16/silk-dark.min",
+                    "highlightjs-style-base16-silk-light": "styles/base16/silk-light.min",
+                    "highlightjs-style-base16-snazzy": "styles/base16/snazzy.min",
+                    "highlightjs-style-base16-solar-flare-light": "styles/base16/solar-flare-light.min",
+                    "highlightjs-style-base16-solar-flare": "styles/base16/solar-flare.min",
+                    "highlightjs-style-base16-solarized-dark": "styles/base16/solarized-dark.min",
+                    "highlightjs-style-base16-solarized-light": "styles/base16/solarized-light.min",
+                    "highlightjs-style-base16-spacemacs": "styles/base16/spacemacs.min",
+                    "highlightjs-style-base16-summercamp": "styles/base16/summercamp.min",
+                    "highlightjs-style-base16-summerfruit-dark": "styles/base16/summerfruit-dark.min",
+                    "highlightjs-style-base16-summerfruit-light": "styles/base16/summerfruit-light.min",
+                    "highlightjs-style-base16-synth-midnight-terminal-dark": "styles/base16/synth-midnight-terminal-dark.min",
+                    "highlightjs-style-base16-synth-midnight-terminal-light": "styles/base16/synth-midnight-terminal-light.min",
+                    "highlightjs-style-base16-tango": "styles/base16/tango.min",
+                    "highlightjs-style-base16-tender": "styles/base16/tender.min",
+                    "highlightjs-style-base16-tomorrow-night": "styles/base16/tomorrow-night.min",
+                    "highlightjs-style-base16-tomorrow": "styles/base16/tomorrow.min",
+                    "highlightjs-style-base16-twilight": "styles/base16/twilight.min",
+                    "highlightjs-style-base16-unikitty-dark": "styles/base16/unikitty-dark.min",
+                    "highlightjs-style-base16-unikitty-light": "styles/base16/unikitty-light.min",
+                    "highlightjs-style-base16-vulcan": "styles/base16/vulcan.min",
+                    "highlightjs-style-base16-windows-10-light": "styles/base16/windows-10-light.min",
+                    "highlightjs-style-base16-windows-10": "styles/base16/windows-10.min",
+                    "highlightjs-style-base16-windows-95-light": "styles/base16/windows-95-light.min",
+                    "highlightjs-style-base16-windows-95": "styles/base16/windows-95.min",
+                    "highlightjs-style-base16-windows-high-contrast-light": "styles/base16/windows-high-contrast-light.min",
+                    "highlightjs-style-base16-windows-high-contrast": "styles/base16/windows-high-contrast.min",
+                    "highlightjs-style-base16-windows-nt-light": "styles/base16/windows-nt-light.min",
+                    "highlightjs-style-base16-windows-nt": "styles/base16/windows-nt.min",
+                    "highlightjs-style-base16-woodland": "styles/base16/woodland.min",
+                    "highlightjs-style-base16-xcode-dusk": "styles/base16/xcode-dusk.min",
+                    "highlightjs-style-base16-zenburn": "styles/base16/zenburn.min",
                     "highlightjs-lang-1c": "languages/1c.min",
                     "highlightjs-lang-abnf": "languages/abnf.min",
                     "highlightjs-lang-accesslog": "languages/accesslog.min",
@@ -168,7 +315,6 @@
                     "highlightjs-lang-bnf": "languages/bnf.min",
                     "highlightjs-lang-brainfuck": "languages/brainfuck.min",
                     "highlightjs-lang-c": "languages/c.min",
-                    "highlightjs-lang-c-like": "languages/c-like.min",
                     "highlightjs-lang-cal": "languages/cal.min",
                     "highlightjs-lang-capnproto": "languages/capnproto.min",
                     "highlightjs-lang-ceylon": "languages/ceylon.min",
@@ -222,7 +368,6 @@
                     "highlightjs-lang-haskell": "languages/haskell.min",
                     "highlightjs-lang-haxe": "languages/haxe.min",
                     "highlightjs-lang-hsp": "languages/hsp.min",
-                    "highlightjs-lang-htmlbars": "languages/htmlbars.min",
                     "highlightjs-lang-http": "languages/http.min",
                     "highlightjs-lang-hy": "languages/hy.min",
                     "highlightjs-lang-inform7": "languages/inform7.min",
@@ -263,6 +408,7 @@
                     "highlightjs-lang-nginx": "languages/nginx.min",
                     "highlightjs-lang-nim": "languages/nim.min",
                     "highlightjs-lang-nix": "languages/nix.min",
+                    "highlightjs-lang-node-repl": "languages/node-repl.min",
                     "highlightjs-lang-nsis": "languages/nsis.min",
                     "highlightjs-lang-objectivec": "languages/objectivec.min",
                     "highlightjs-lang-ocaml": "languages/ocaml.min",
@@ -328,6 +474,8 @@
                     "highlightjs-lang-verilog": "languages/verilog.min",
                     "highlightjs-lang-vhdl": "languages/vhdl.min",
                     "highlightjs-lang-vim": "languages/vim.min",
+                    "highlightjs-lang-wasm": "languages/wasm.min",
+                    "highlightjs-lang-wren": "languages/wren.min",
                     "highlightjs-lang-x86asm": "languages/x86asm.min",
                     "highlightjs-lang-xl": "languages/xl.min",
                     "highlightjs-lang-xml": "languages/xml.min",
@@ -365,7 +513,6 @@
                     "highlightjs-lang-bnf": ["highlightjs-min"],
                     "highlightjs-lang-brainfuck": ["highlightjs-min"],
                     "highlightjs-lang-c": ["highlightjs-min"],
-                    "highlightjs-lang-c-like": ["highlightjs-min"],
                     "highlightjs-lang-cal": ["highlightjs-min"],
                     "highlightjs-lang-capnproto": ["highlightjs-min"],
                     "highlightjs-lang-ceylon": ["highlightjs-min"],
@@ -419,7 +566,6 @@
                     "highlightjs-lang-haskell": ["highlightjs-min"],
                     "highlightjs-lang-haxe": ["highlightjs-min"],
                     "highlightjs-lang-hsp": ["highlightjs-min"],
-                    "highlightjs-lang-htmlbars": ["highlightjs-min"],
                     "highlightjs-lang-http": ["highlightjs-min"],
                     "highlightjs-lang-hy": ["highlightjs-min"],
                     "highlightjs-lang-inform7": ["highlightjs-min"],
@@ -460,6 +606,7 @@
                     "highlightjs-lang-nginx": ["highlightjs-min"],
                     "highlightjs-lang-nim": ["highlightjs-min"],
                     "highlightjs-lang-nix": ["highlightjs-min"],
+                    "highlightjs-lang-node-repl": ["highlightjs-min"],
                     "highlightjs-lang-nsis": ["highlightjs-min"],
                     "highlightjs-lang-objectivec": ["highlightjs-min"],
                     "highlightjs-lang-ocaml": ["highlightjs-min"],
@@ -525,6 +672,8 @@
                     "highlightjs-lang-verilog": ["highlightjs-min"],
                     "highlightjs-lang-vhdl": ["highlightjs-min"],
                     "highlightjs-lang-vim": ["highlightjs-min"],
+                    "highlightjs-lang-wasm": ["highlightjs-min"],
+                    "highlightjs-lang-wren": ["highlightjs-min"],
                     "highlightjs-lang-x86asm": ["highlightjs-min"],
                     "highlightjs-lang-xl": ["highlightjs-min"],
                     "highlightjs-lang-xml": ["highlightjs-min"],
@@ -563,6 +712,7 @@
                         <configuration>
                             <target>
                                 <mkdir dir="${base.dir}/styles" />
+                                <mkdir dir="${base.dir}/styles/base16" />
                                 <mkdir dir="${base.dir}/languages" />
 
                                 <get src="${upstream.url}/highlight.js" dest="${base.dir}" />
@@ -577,26 +727,6 @@
                                 <get src="${upstream.url}/styles/arduino-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/arta.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/ascetic.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-cave-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-cave-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-dune-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-dune-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-estuary-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-estuary-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-forest-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-forest-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-heath-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-heath-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-lakeside-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-lakeside-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-plateau-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-plateau-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-savanna-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-savanna-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-seaside-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-seaside-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-sulphurpool-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/atelier-sulphurpool-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/atom-one-dark.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/atom-one-dark-reasonable.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/atom-one-light.min.css" dest="${base.dir}/styles" />
@@ -604,29 +734,27 @@
                                 <get src="${upstream.url}/styles/brown-papersq.png" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/codepen-embed.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/color-brewer.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/darcula.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/dark.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/default.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/devibeans.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/docco.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/dracula.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/far.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/foundation.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/github.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/github-gist.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/github-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/github-dark-dimmed.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/gml.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/googlecode.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/gradient-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/gradient-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/grayscale.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/gruvbox-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/gruvbox-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/hopscotch.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/hybrid.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/idea.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/ir-black.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/isbl-editor-dark.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/isbl-editor-light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/kimbie.dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/kimbie.light.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/kimbie-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/kimbie-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/lightfair.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/lioshi.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/magula.min.css" dest="${base.dir}/styles" />
@@ -634,38 +762,208 @@
                                 <get src="${upstream.url}/styles/monokai.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/monokai-sublime.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/night-owl.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/nnfx.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/nnfx-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/nnfx-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/nord.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/obsidian.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/ocean.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/paraiso-dark.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/paraiso-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/pojoaque.jpg" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/pojoaque.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/purebasic.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/qtcreator_dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/qtcreator_light.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/railscasts.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/qtcreator-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/qtcreator-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/rainbow.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/routeros.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/school-book.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/school-book.png" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/shades-of-purple.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/solarized-dark.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/solarized-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/srcery.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/stackoverflow-dark.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/stackoverflow-light.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/sunburst.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/tomorrow.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/tomorrow-night.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/tomorrow-night-blue.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/tomorrow-night-bright.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/tomorrow-night-eighties.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/vs.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/vs2015.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/xcode.min.css" dest="${base.dir}/styles" />
                                 <get src="${upstream.url}/styles/xt256.min.css" dest="${base.dir}/styles" />
-                                <get src="${upstream.url}/styles/zenburn.min.css" dest="${base.dir}/styles" />
+
+                                <get src="${upstream.url}/styles/base16/3024.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/apathy.min.css" dest="${base.dir}/styles" />
+                                <get src="${upstream.url}/styles/base16/apprentice.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ashes.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-cave-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-cave.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-dune-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-dune.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-estuary-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-estuary.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-forest-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-forest.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-heath-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-heath.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-lakeside-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-lakeside.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-plateau-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-plateau.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-savanna-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-savanna.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-seaside-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-seaside.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-sulphurpool-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atelier-sulphurpool.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/atlas.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/bespin.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-bathory.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-burzum.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-dark-funeral.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-gorgoroth.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-immortal.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-khold.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-marduk.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-mayhem.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-nile.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal-venom.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/black-metal.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/brewer.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/bright.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/brogrammer.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/brush-trees-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/brush-trees.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/chalk.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/circus.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/classic-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/classic-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/codeschool.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/colors.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/cupcake.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/cupertino.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/danqing.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/darcula.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/dark-violet.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/darkmoss.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/darktooth.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/decaf.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/default-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/default-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/dirtysea.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/dracula.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/edge-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/edge-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/eighties.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/embers.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/equilibrium-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/equilibrium-gray-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/equilibrium-gray-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/equilibrium-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/espresso.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/eva-dim.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/eva.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/flat.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/framer.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/fruit-soda.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gigavolt.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/github.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/google-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/google-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/grayscale-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/grayscale-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/green-screen.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-dark-hard.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-dark-medium.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-dark-pale.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-dark-soft.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-light-hard.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-light-medium.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/gruvbox-light-soft.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/hardcore.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/harmonic16-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/harmonic16-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/heetch-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/heetch-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/helios.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/hopscotch.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/horizon-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/horizon-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/humanoid-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/humanoid-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ia-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ia-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/icy-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ir-black.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/isotope.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/kimber.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/london-tube.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/macintosh.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/marrakesh.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/materia.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/material-darker.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/material-lighter.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/material-palenight.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/material-vivid.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/material.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/mellow-purple.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/mexico-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/mocha.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/monokai.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/nebula.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/nord.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/nova.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ocean.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/oceanicnext.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/one-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/onedark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/outrun-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/papercolor-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/papercolor-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/paraiso.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/pasque.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/phd.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/pico.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/pop.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/porple.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/qualia.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/railscasts.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/rebecca.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ros-pine-dawn.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ros-pine-moon.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/ros-pine.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/sagelight.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/sandcastle.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/seti-ui.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/shapeshifter.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/silk-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/silk-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/snazzy.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/solar-flare-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/solar-flare.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/solarized-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/solarized-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/spacemacs.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/summercamp.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/summerfruit-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/summerfruit-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/synth-midnight-terminal-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/synth-midnight-terminal-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/tango.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/tender.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/tomorrow-night.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/tomorrow.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/twilight.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/unikitty-dark.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/unikitty-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/vulcan.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-10-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-10.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-95-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-95.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-high-contrast-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-high-contrast.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-nt-light.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/windows-nt.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/woodland.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/xcode-dusk.min.css" dest="${base.dir}/styles/base16" />
+                                <get src="${upstream.url}/styles/base16/zenburn.min.css" dest="${base.dir}/styles/base16" />
 
                                 <!-- languages -->
                                 <get src="${upstream.url}/languages/1c.min.js" dest="${base.dir}/languages" />
@@ -691,7 +989,6 @@
                                 <get src="${upstream.url}/languages/bnf.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/brainfuck.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/c.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url}/languages/c-like.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/cal.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/capnproto.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/ceylon.min.js" dest="${base.dir}/languages" />
@@ -745,7 +1042,6 @@
                                 <get src="${upstream.url}/languages/haskell.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/haxe.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/hsp.min.js" dest="${base.dir}/languages" />
-                                <get src="${upstream.url}/languages/htmlbars.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/http.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/hy.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/inform7.min.js" dest="${base.dir}/languages" />
@@ -786,6 +1082,7 @@
                                 <get src="${upstream.url}/languages/nginx.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/nim.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/nix.min.js" dest="${base.dir}/languages" />
+                                <get src="${upstream.url}/languages/node-repl.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/nsis.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/objectivec.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/ocaml.min.js" dest="${base.dir}/languages" />
@@ -851,6 +1148,8 @@
                                 <get src="${upstream.url}/languages/verilog.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/vhdl.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/vim.min.js" dest="${base.dir}/languages" />
+                                <get src="${upstream.url}/languages/wasm.min.js" dest="${base.dir}/languages" />
+                                <get src="${upstream.url}/languages/wren.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/x86asm.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/xl.min.js" dest="${base.dir}/languages" />
                                 <get src="${upstream.url}/languages/xml.min.js" dest="${base.dir}/languages" />
